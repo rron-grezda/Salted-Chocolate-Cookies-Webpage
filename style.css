@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Rouge+Script&display=swap');
+
+body {
+    background-color: rgb(251, 222, 185);
+    margin: 80px 80px;
+}
+
+h1, h2{
+    text-align: center;
+    font-family: 'Dancing Script';
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+.content,
+.content p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content a {
+    color: white;
+    background-color: #f07095;
+    text-decoration: none;
+    padding: 8px 20px;
+}
+
+a {
+    color: #f07095;
+}
+
+#how-to-prepare {
+    margin-top: 40px;
+}
+
+.social-media {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 25px;
+}
+
+.social-media a {
+    color: black;
+}
